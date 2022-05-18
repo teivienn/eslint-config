@@ -2,7 +2,6 @@ module.exports = {
   'fontend/native': {
     'react/require-default-props': ['off'],
     'react/prop-types': ['off'],
-    'react/no-set-state': ['off'],
     'react/no-array-index-key': ['warn'],
     'react/no-deprecated': ['warn'],
     'react/jsx-key': ['error'],
@@ -39,6 +38,7 @@ module.exports = {
     'no-useless-return': ['off'],
     'class-methods-use-this': ['off'],
     'max-len': ['off'],
+    'no-return-await': ['off'],
     // 'max-len': [
     //   'warn',
     //   {
